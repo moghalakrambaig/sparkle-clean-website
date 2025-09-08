@@ -147,9 +147,9 @@ const PhoneIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (<svg xmln
 // --- 5. DATA CONSTANTS ---
 
 const SERVICES_DATA: Service[] = [
-    { id: 'deep-cleaning', title: 'Deep Cleaning', description: 'A thorough cleaning of your entire home, top to bottom.', icon: DeepCleanIcon, price: '$250' },
-    { id: 'carpet-cleaning', title: 'Carpet Cleaning', description: 'Professional steam cleaning for your carpets.', icon: CarpetIcon, price: '$180' },
-    { id: 'kitchen-cleaning', title: 'Kitchen Cleaning', description: 'We sanitize all surfaces and clean appliances.', icon: KitchenIcon, price: '$120' },
+    { id: 'deep-cleaning', title: 'Deep Cleaning', description: 'A thorough cleaning of your entire home, top to bottom.', icon: DeepCleanIcon, price: '' },
+    { id: 'carpet-cleaning', title: 'Carpet Cleaning', description: 'Professional steam cleaning for your carpets.', icon: CarpetIcon, price: '' },
+    { id: 'kitchen-cleaning', title: 'Kitchen Cleaning', description: 'We sanitize all surfaces and clean appliances.', icon: KitchenIcon, price: '' },
     { id: 'bathroom-cleaning', title: 'Bathroom Cleaning', description: 'A complete disinfection and cleaning of bathrooms.', icon: BathroomIcon, price: '$100' },
     { id: 'window-cleaning', title: 'Window Cleaning', description: 'Streak-free cleaning for all interior and exterior windows.', icon: WindowIcon, price: '$150' },
     { id: 'office-cleaning', title: 'Office Cleaning', description: 'Customized cleaning plans for commercial spaces.', icon: OfficeIcon, price: 'Contact for Quote' },
@@ -329,7 +329,7 @@ const ServicesPage = () => {
                             <div className="p-3 bg-sky-100 rounded-full mr-4 text-sky-500"><service.icon className="h-8 w-8" /></div>
                             <div>
                                 <h3 className="text-2xl font-bold text-gray-800">{service.title}</h3>
-                                <p className="text-lg font-semibold text-sky-600">{service.price}</p>
+                                {/* <p className="text-lg font-semibold text-sky-600">{service.price}</p> */}
                             </div>
                         </div>
                         <p className="text-gray-600 flex-grow mb-6">{service.description}</p>
