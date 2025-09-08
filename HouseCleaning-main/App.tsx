@@ -1,7 +1,7 @@
 import React, { useState, useEffect, FormEvent, ReactNode, createContext, useContext } from 'react';
 import { Routes, Route, Link, NavLink, useLocation, useNavigate, Navigate, Outlet } from 'react-router-dom';
 import * as api from './services/databaseservice';
-import AdminBookingsPage from './pages/AdminBookingsPage';
+import AdminBookingsPage from './admin-app/AdminBookingsPage';
 
 // --- 1. TYPE DEFINITIONS ---
 type BookingStatus = 'Pending' | 'Approved' | 'Rejected';
