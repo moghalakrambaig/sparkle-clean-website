@@ -2,7 +2,7 @@
 
 // Base URL (from .env or default localhost)
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE || "http://localhost:8080/api";
+  import.meta.env.VITE_API_BASE;
 
 // ==================== BOOKINGS ====================
 
