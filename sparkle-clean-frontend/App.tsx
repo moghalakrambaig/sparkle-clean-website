@@ -273,7 +273,7 @@ const HomePage = () => {
     return (
         <div>
             <div className="bg-sky-100 text-center py-20 md:py-32">
-                <h1 className="text-4xl md:text-6xl font-bold text-gray-800">Pristine Clean for a Sparkling Home</h1>
+                <h1 className="text-4xl md:text-6xl font-bold text-gray-800">Pristine Clean for Sparkling Home</h1>
                 <p className="text-lg md:text-xl text-gray-600 mt-4 max-w-2xl mx-auto">Reliable, professional, and thorough cleaning services tailored to your needs.</p>
                 <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <button onClick={() => navigate('/booking')} className="bg-sky-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-sky-600 transition duration-300 shadow-lg transform hover:scale-105">
